@@ -17,15 +17,15 @@ const Register = () => {
         </div>
 
         {/* MLUsion Section */}
-        <div className="sm:px-10 px-6 pt-24 pb-16 max-w-7xl mx-auto flex flex-row items-start gap-5">
+        <div className="sm:px-10 pt-0 pb-16 max-w-7xl mx-auto flex flex-row items-start gap-5">
 
           <div className="flex flex-col justify-center items-center mt-5">
             <div className="w-5 h-5 rounded-full bg-[#d22490] border-2 border-white shadow-neon" />
             <div className="w-1 sm:h-80 h-[45rem] rounded-full bg-gradient-to-b from-[#d22490]" />
           </div>
           <div>
-            <h1 className="font-black text-white lg:text-[80px] mt-3 mb-6 sm:text-center xs:text-[50px] text-4xl sm:text-5xl lg:leading-[98px]">
-              Welcome to <span className="text-[#d22490]">MLusion 2.0 2025</span>
+            <h1 className="font-black text-white lg:text-left lg:text-[80px] mt-3 mb-6 sm:text-center xs:text-[50px] text-4xl sm:text-5xl lg:leading-[98px]">
+              Welcome to <span className="text-[#d22490]">MLusion 2.0</span>
             </h1>
             <p className="text-[#dfd9ff] lg:text-[25px] sm:text-[26px] text-[20px] lg:leading-[40px] mt-2 w-full">
               
