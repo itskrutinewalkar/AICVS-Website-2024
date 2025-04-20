@@ -24,6 +24,8 @@ import purpleGradient from "./purple_gradient.png";
 import recording01 from "./recording-01.svg";
 import recording03 from "./recording-03.svg";
 import roboface from "./roboface.png";
+import MLusion from "./MLusion.png";
+import Synapse from "./Synapse.png";
 import searchMd from "./search-md.svg";
 import siya from "./siya.png";
 import sliders04 from "./sliders-04.svg";
@@ -118,6 +120,6 @@ export {
   roadmap4, roboface, robot, searchMd, service1,
   service2,
   service3, shreya_agrawal, shreya_mote, shreya_watwe, siya, slack, sliders04, smallSphere, stars, team, telegram,
-  twitter, undone, vaidehi_more, varada, waveSphere, yashita, yourlogo
+  twitter, undone, vaidehi_more, varada, waveSphere, yashita, yourlogo, Synapse, MLusion
 };
 

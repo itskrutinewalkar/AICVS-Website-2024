@@ -8,7 +8,9 @@ export default {
     extend: {
       boxShadow: {
         'neon': '0 0 10px #ffffff, 0 0 20px #915eff, 0 0 30px #915eff, 0 0 40px #915eff',
-        'glow': '0 0 15px rgba(145, 94, 255, 0.8), 0 0 25px rgba(145, 94, 255, 0.8)',
+        'glow-purple': '0 0 15px rgba(145, 94, 255, 0.8), 0 0 25px rgba(145, 94, 255, 0.8)',
+        'glow-pink': '0 0 15px rgba(210, 36, 144, 0.8), 0 0 25px rgba(210, 36, 144, 0.8)',
+        'glow-green': '0 0 15px rgba(32, 185, 32, 0.8), 0 0 25px rgba(32, 185, 32, 0.8)',
       },
       keyframes: {
         slidein: {
