@@ -2,7 +2,7 @@ import React from 'react';
 import Section from './Section';
 import Header from './Header';
 import Footer from './Footer';
-import { roboface } from '../assets';
+import { MLusion, roboface, Synapse } from '../assets';
 
 const Register = () => {
   const repository = import.meta.env.VITE_REPOSITORY_LINK;
@@ -24,10 +24,10 @@ const Register = () => {
             <div className="w-1 sm:h-80 h-[45rem] rounded-full bg-gradient-to-b from-[#d22490]" />
           </div>
           <div>
-            <h1 className="font-black text-white lg:text-left lg:text-[80px] mt-3 mb-6 sm:text-center xs:text-[50px] text-4xl sm:text-5xl lg:leading-[98px]">
+            <h1 className="font-black text-white lg:text-left lg:text-[80px] mt-3 mb-0 sm:text-center xs:text-[50px] text-4xl sm:text-5xl lg:leading-[98px]">
               Welcome to <span className="text-[#d22490]">MLusion 2.0</span>
             </h1>
-            <p className="text-[#dfd9ff] lg:text-[25px] sm:text-[26px] text-[20px] lg:leading-[40px] mt-2 w-full">
+            <p className="text-[#dfd9ff] lg:text-[25px] sm:text-[26px] text-[20px] lg:leading-[40px] mt-0 w-full">
               
               <br />
               🚀 <strong>MLusion 2.0 Submissions Are Now Open!</strong><br /><br />
@@ -51,6 +51,13 @@ const Register = () => {
               🔹 Submissions Begin: <strong>19th April</strong><br />
               🔹 Last Date for Submission: <strong>8th May</strong>
             </p>
+            <div className="mt-20 flex flex-col items-center justify-center">
+              <img
+                src={MLusion}
+                alt="Event Poster"
+                className="w-full max-w-[500px] rounded-lg sm:shadow-glow-pink"
+              />
+            </div>
           </div>
         </div>
 
@@ -85,6 +92,13 @@ const Register = () => {
 
       
     </p>
+    <div className="mt-20 flex flex-col items-center justify-center">
+      <img
+          src={Synapse}
+          alt="Event Poster"
+          className="w-full max-w-[500px] rounded-lg sm:shadow-glow-green"
+      />
+    </div>
   </div>
 </div>
 
@@ -125,7 +139,7 @@ const Register = () => {
               <img
                 src={roboface}
                 alt="Event Poster"
-                className="w-full max-w-[500px] rounded-lg sm:shadow-glow"
+                className="w-full max-w-[500px] rounded-lg sm:shadow-glow-purple"
               />
             </div>
           </div>
