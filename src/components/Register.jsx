@@ -17,7 +17,7 @@ const Register = () => {
         </div>
 
         {/* MLUsion Section */}
-        <div className="sm:px-10 pt-0 pb-16 max-w-7xl mx-auto flex flex-row items-start gap-5">
+        <div className="sm:px-10 px-6 lg:pt-0 pt-20 pb-16 max-w-7xl mx-auto flex flex-row items-start gap-5">
 
           <div className="flex flex-col justify-center items-center mt-5">
             <div className="w-5 h-5 rounded-full bg-[#d22490] border-2 border-white shadow-neon" />
