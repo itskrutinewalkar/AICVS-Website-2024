@@ -228,7 +228,7 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "DATAHON",
+    title: "DATATHON",
     img: datathon,
     
   },
